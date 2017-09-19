@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login</title>
+	<script type="text/javascript">
+		function call(){
+			 window.location = "ajaxaccount.html";
+		}
+	</script>
+	<style type="text/css">
+	    body{
+	    	margin:50px;
+	    	background: url("bg1.jpg") no-repeat;
+	    
+	    }
+		#legend{
+			text-align: center;
+			color: #ff0066;
+			font-size: 25px;
+			
+		}
+		#div1{
+			margin-left: 400px;
+			margin-top: 130px;
+			width: 330px;
+			align-items: middle;
+			background: url("Lime.jpg");
+		}
+		form{
+			color:#ff0066;
+		}
+		img{
+			float: right;
+			padding-top: 15px;
+
+		}
+	</style>
+</head>
+<body>
+	<div id="div1">
+		<fieldset id="field">
+		<legend id="legend"><b>Login</b></legend>
+		<img id="img" src="thivy.jpg">
+		<form method="post" action="ajaxsurprise.php">
+			<br>
+			Username: <input class="input" type="text" name="username"><br><br>
+			Password: <input class="input" type="password" name="pass"><br><br>
+			<input type="submit" value="Login">
+			<input id="but" type="button" value="create an account" onclick="call();"></input>
+			
+		</form>
+		</fieldset>
+	</div>
+</body>
+</html>

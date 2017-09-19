@@ -1,0 +1,32 @@
+body{
+	background-image: url(Background.jpg);
+	}
+	div{
+		border: solid 2px black;
+		margin: 100px;
+		margin-left: 400px;
+		width: 500px;
+		align-items: center;
+		background-color: #9C27B0;
+		color: white;
+		font-size: 25px;
+		}
+		form{
+			margin:40px;
+			padding: 30px;	
+			margin-top: 20PX;
+			padding-top: 10px;	
+		}
+		h2{
+			padding-left: 60px;
+			color: #ffff4d;
+		}
+		#sub{
+			background-color: #ffff66;
+		}
+		#sub:hover{
+			background-color: #ff1a1a;
+		}
+		#sub:active{
+			background-color: #00ff00;
+		}
